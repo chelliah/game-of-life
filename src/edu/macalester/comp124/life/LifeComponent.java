@@ -103,7 +103,7 @@ public class LifeComponent extends JComponent {
             g2.fillRect(0, y, bw, GUTTER_SIZE);
         }
         
-        g2.setPaint(Color.BLACK);
+        g2.setPaint(Color.BLUE);
         
         for (int x = 0; x < board.getWidth(); x++) {
             int xpos = cellDistance(x);

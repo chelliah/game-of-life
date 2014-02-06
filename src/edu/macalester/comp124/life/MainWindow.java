@@ -22,7 +22,7 @@ import java.text.ParseException;
 public class MainWindow extends JFrame
     implements ActionListener, ChangeListener {
     
-    private static final int RUN_DELAY = 250;
+    private static final int RUN_DELAY = 1000;
 
     private JButton bStep;
     private JToggleButton tbRun;
